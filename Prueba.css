@@ -1,0 +1,38 @@
+body * {
+    margin: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    border: solid 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.Contenedor_Global {
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;
+    border-color: black;
+}
+Header {
+    border-color: red;
+}
+.Wrapper {
+    border: none;
+    padding: 0;
+}
+.Wrapper *{
+    margin: 0;
+}
+.Menu {
+    border-color: green;
+    width: 30%;
+    float: left;
+}
+.Contenido {
+    border-color: purple;
+    width: 70%;
+    float: left;
+}
+footer {
+    border-color: orange;
+    clear: both;
+}
