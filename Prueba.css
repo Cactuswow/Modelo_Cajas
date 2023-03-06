@@ -11,29 +11,28 @@ body * {
     width: 600px;
     margin: 0 auto;
     border-color: black;
+    display: grid;
+    grid-template-areas: 
+    'Header Header Header' 
+    'Menu Contenido Contenido' 
+    'Footer Footer Footer';
 }
 Header {
     border-color: red;
+    grid-area: Header;
 }
 ul {
     list-style: none;
 }
-.Wrapper {
-    border: none;
-    padding: 0;
-    display: flex;
-}
-.Wrapper *{
-    margin: 0;
-}
 .Menu {
     border-color: green;
-    width: 30%;
+    grid-area: Menu;
 }
 .Contenido {
     border-color: purple;
-    width: 70%;
+    grid-area: Contenido;
 }
 footer {
     border-color: orange;
+    grid-area: Footer;
 }
