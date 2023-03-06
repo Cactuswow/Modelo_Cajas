@@ -15,9 +15,13 @@ body * {
 Header {
     border-color: red;
 }
+ul {
+    list-style: none;
+}
 .Wrapper {
     border: none;
     padding: 0;
+    display: flex;
 }
 .Wrapper *{
     margin: 0;
@@ -25,14 +29,11 @@ Header {
 .Menu {
     border-color: green;
     width: 30%;
-    float: left;
 }
 .Contenido {
     border-color: purple;
     width: 70%;
-    float: left;
 }
 footer {
     border-color: orange;
-    clear: both;
 }
